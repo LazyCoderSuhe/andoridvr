@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.androidvrplayer"
+        applicationId "com.example.shvr"
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
@@ -36,6 +36,5 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    implementation project(path: ':shvr')
-
+    api 'org.rajawali3d:rajawali:1.1.970'
 }
